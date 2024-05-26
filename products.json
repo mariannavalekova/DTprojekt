@@ -1,0 +1,76 @@
+[
+  {
+    "name": "Product A",
+    "unit_price": 25.0,
+    "units_in_stock": 100,
+    "supplier": {
+      "company_name": "Supplier 1",
+      "phone": "123-456-7890",
+      "email": "supplier1@example.com",
+      "fax": ""
+    },
+    "category": {
+      "category_name": "Category 1",
+      "subcategory": [
+        "Subcat A",
+        "Subcat B"
+        ]
+    },
+    "stock": [
+      {
+        "quantity_available": 100,
+        "reorder_level": 20,
+        "reorder_quantity": 50,
+        "warehouse_location": "Warehouse 1"
+      }
+    ]
+  },
+  {
+    "name": "Product B",
+    "unit_price": 30.0,
+    "units_in_stock": 150,
+    "supplier": {
+      "company_name": "Supplier 2",
+      "phone": "456-789-0123",
+      "email": "supplier2@example.com",
+      "fax": ""
+    },
+    "category": {
+      "category_name": "Category 2",
+      "subcategory": [
+        "Subcat C",
+        "Subcat D"
+      ]
+    },
+    "stock": {
+      "quantity_available": 150,
+      "reorder_level": 30,
+      "reorder_quantity": 50,
+      "warehouse_location": "Warehouse 2"
+    }
+  },
+  {
+    "name": "Product C",
+    "unit_price": 35.0,
+    "units_in_stock": 200,
+    "supplier": {
+      "company_name": "Supplier 3",
+      "phone": "789-012-3456",
+      "email": "supplier3@example.com",
+      "fax": ""
+    },
+    "category": {
+      "category_name": "Category 3",
+      "subcategory": [
+        "Subcat E",
+        "Subcat F"
+      ]
+    },
+    "stock": {
+      "quantity_available": 200,
+      "reorder_level": 40,
+      "reorder_quantity": 60,
+      "warehouse_location": "Warehouse 3"
+    }
+  }
+]
